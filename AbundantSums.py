@@ -36,10 +36,8 @@ list_sums = [0]*28123
 for i in range(1, 28123):
     if sumFactors(i) > i:
         list_fac.append(i)
-print(list_fac.__len__())
 
 for i in range(0, list_fac.__len__()):
-    print(i)
     for j in range(i, list_fac.__len__()):
         tmp = list_fac[i] + list_fac[j]
         if(tmp < 28123):
