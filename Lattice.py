@@ -26,4 +26,5 @@ range = 20
 move(0, 0, list, range)
 print("Paths: " + str(list.__len__()))
 print("--- %s seconds ---" % (time.time()-start_time))
+print("Done")
 
