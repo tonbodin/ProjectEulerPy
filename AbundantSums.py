@@ -53,4 +53,5 @@ for i in range(0, list_sums.__len__()):
 
 print(total)
 print("--- %s seconds ---" % (time.time()-start_time))
+print("Done")
 
