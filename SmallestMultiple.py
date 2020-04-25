@@ -18,6 +18,6 @@ def test(n):
 n = 2520
 while test(n) is False:
     n += 20
-    print(n)
+
 print("Answer is: " + str(n))
 print("--- %s seconds ---" % (time.time()-start_time))
